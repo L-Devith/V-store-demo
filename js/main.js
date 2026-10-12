@@ -30,7 +30,6 @@ searchBtn.addEventListener("click", function () {
   const keyword = searchInput.value.trim();
 
   if (keyword !== "") {
-    // បើមានវាយអក្សរ ឱ្យលោតសារប្រាប់
     alert("កំពុងស្វែងរកផលិតផល៖ " + keyword);
 
     searchInput.value = "";
@@ -38,3 +37,4 @@ searchBtn.addEventListener("click", function () {
     alert("សូមវាយបញ្ចូលឈ្មោះផលិតផលមុននឹងចុច Search!");
   }
 });
+
